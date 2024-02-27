@@ -1,0 +1,118 @@
+@font-face{
+    font-family: "BreakingBad";
+    src: url(../BreakingBad.ttf);
+}
+body{
+    background-color: #0c3e11;
+    text-align: center;
+    color: hwb(76 2% 88% / 0.808);  
+    font-family: Helvetica;
+}
+table {
+    align-self: center;
+    border-collapse: collapse; 
+    margin: auto;
+    font-size: 10px; 
+    height: 300px;  
+    width:700px ;
+      
+}
+table,
+td {
+    border: 4px solid black;
+    padding: 1px;
+     
+}
+b{
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'BreakingBad';
+    font-size: 45px;
+    
+}
+
+
+input:valid, textarea:valid{
+    background: rgb(207, 247, 207);
+}
+input:invalid, textarea:valid{
+    background: rgb(240, 195, 195);
+}
+img{
+    position: relative;
+    height: 40px;  
+    width:40px ;
+}
+.cuerpoBreaking{
+    background-image: url(../IMG/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Helvetica;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+#poster{
+    width: 700px;
+    height: 300px;
+    border:10px outset brown;
+    border-radius: 22px;
+    display:block;
+    margin: auto;
+}
+#cabecera{
+    display:block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+#cabecera2{
+    height: 200px;  
+    width:400px ;
+}
+#tabla2{
+    background-color: rgb(174, 213, 56);
+   
+}
+#tabla2{
+    height: 100px;  
+    width: 600px ;
+}
+#celda{
+    height:100%;  
+    width:100% ;
+}
+#grey{
+    background-color:grey ;
+}
+#verdesmoke{
+    background-color:hsl(95, 14%, 30%) ;
+}
+#verdesoft{
+    background-color:rgb(215, 240, 124) ;
+}
+#negro{
+    background-color: black;
+}#verdestrong{
+    background-color: #3c521a;
+}
+#verdepistaccio{
+    background-color: #9fd540fe;
+}
+#blanco{
+    background-color: whitesmoke;
+}
+
+#verdestrong{
+    background-color: #3c521a;
+}
+#morado{
+    background-color: #978197;
+}
+#verde{
+    background-color: greenyellow;
+}

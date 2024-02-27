@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor y cliente" content="Ana Gonzalez Bueno para QueVeo">
+    <link rel="stylesheet" type="text/css" href="CarpetaCSS/Entrega.css">
+    <link rel="icon" href="IMG/icon.png" type="png">
+    <title>formulario</title>
+</head>
+<body class="cuerpoBreaking">
+    <h2>Breaking Bad - Que comience el juego!</h2>
+    <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.es" enctype="multipart/form-data">
+        <fieldset><legend>Datos personales</legend>
+            <label for="obligatorios" class="obligatorios">
+                <br>Nombre*: <input type="text" name="Nombre" placeholder="Ej. Juan" required id="Nombre"> 
+                <br>
+                <br>Apellidos*: <input type="text" name="Apellidos" placeholder="Ej. Perez Yañez" required> 
+                <br>
+                <br>Correo electronico*: <input type="email" name="e-mail" placeholder="email@ejemplo.com" required>
+            </label>
+                <br>
+                <br>Direccion postal: <input name="Direccion" type="text" placeholder="Calle, numero, piso, codigo postal, ciudad"> Direccion postal()
+                <br>
+                <br>DNI: <input type="text" name="DNI" placeholder="00000000X" minlength="9" maxlength="9"> 
+        
+        
+                <br>
+                <br>Sexo: <input type="radio" name="sexo" value="H">Hombre
+                  <input type="radio" name="sexo" value="M">Mujer
+                <br>
+                <br>Fecha de nacimiento: <input type="date" name="Fecha Nacimiento" min="1920-12-31" max="2024-01-01" step="1">
+        </fieldset>
+            <br>
+            <br>Selecciona una opción: <select name="personajes" id="personajes">
+                                    <option value="1">Jessie Pinkman</option>
+                                    <option value="2">Walter White</option>
+                                    <option value="3">Saul Goodman</option>
+                                    <option value="4">Gustavo Fing</option>
+                                    <option value="5">Pollos Hermanos</option>
+                                    <option value="6">Otros personajes</option>
+                                </select>
+            <br>                            
+            <br>Comentarios:
+            <br><textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea> 
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="borrar"> 
+            <input type="file" value="Adjuntar" multiple> 
+        </form>
+</body>
+</html>
