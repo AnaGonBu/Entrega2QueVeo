@@ -8,6 +8,10 @@ body{
     color: hwb(76 2% 88% / 0.808);  
     font-family: Helvetica;
 }
+fieldset{
+    border-radius: 22px;
+    border: 2px solid black;
+}
 table {
     align-self: center;
     border-collapse: collapse; 
@@ -33,13 +37,19 @@ h1{
     font-size: 45px;
     
 }
-
+button{
+    border: 1px color solid black;
+    background-color: black;
+    padding: 0%;
+}
 
 input:valid, textarea:valid{
     background: rgb(207, 247, 207);
+    color: black;
 }
 input:invalid, textarea:valid{
     background: rgb(240, 195, 195);
+    color: black;
 }
 img{
     position: relative;
@@ -69,6 +79,9 @@ img{
     margin: auto;
     width: 200px;
     height: 200px;
+}
+#noPersonal{
+    color: rgb(79, 76, 76);
 }
 #cabecera2{
     height: 200px;  

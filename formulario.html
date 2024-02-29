@@ -20,7 +20,7 @@
                 <br>Correo electronico*: <input type="email" name="e-mail" placeholder="email@ejemplo.com" required>
             </label>
                 <br>
-                <br>Direccion postal: <input name="Direccion" type="text" placeholder="Calle, numero, piso, codigo postal, ciudad"> Direccion postal()
+                <br>Direccion postal: <input name="Direccion" type="text" placeholder="Calle, numero, piso, codigo postal, ciudad">
                 <br>
                 <br>DNI: <input type="text" name="DNI" placeholder="00000000X" minlength="9" maxlength="9"> 
         
@@ -31,6 +31,8 @@
                 <br>
                 <br>Fecha de nacimiento: <input type="date" name="Fecha Nacimiento" min="1920-12-31" max="2024-01-01" step="1">
         </fieldset>
+        <div id="noPersonal">
+            <br>
             <br>
             <br>Selecciona una opción: <select name="personajes" id="personajes">
                                     <option value="1">Jessie Pinkman</option>
@@ -40,13 +42,23 @@
                                     <option value="5">Pollos Hermanos</option>
                                     <option value="6">Otros personajes</option>
                                 </select>
-            <br>                            
-            <br>Comentarios:
-            <br><textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea> 
+            <br> 
             <br>
+            <br>                          
+            <br>Comentarios:
+            <br>
+            <br><textarea name="Comentarios"  cols="30" rows="10"></textarea> 
+        </div>
+            <br>
+            <button>   
             <input type="submit" value="Enviar">
-            <input type="reset" value="borrar"> 
+            </button>
+        <button>
+            <input type="reset" value="Borrar"> 
+        </button>
+        <button>
             <input type="file" value="Adjuntar" multiple> 
+        </button>
         </form>
 </body>
 </html>
